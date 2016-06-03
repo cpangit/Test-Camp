@@ -65,6 +65,6 @@ var campGrounds = [
     {name: "Kayak Camp", img: "https://drscdn.500px.org/photo/71770819/q%3D80_m%3D2000/a43375bd06214a4a327ba8810d5fd20e"},
 ];
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log("SERVER STARTED");
 });
