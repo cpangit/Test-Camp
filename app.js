@@ -22,7 +22,8 @@ var commentRoutes       = require("./routes/comments"),
     indexRoutes         = require("./routes/index");
 
 // mongoose.connect("mongodb://localhost/yelp_camp");
-mongoose.connect("mongodb://admin:cheng1994@ds023213.mlab.com:23213/yelp_camp");
+var url = process.env.DataBaseURL || "mongodb://localhost/yelp_camp";
+mongoose.connect(url);
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("bower_components"));
