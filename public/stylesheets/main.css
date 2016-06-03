@@ -16,6 +16,10 @@ body.landing{
 				 0px 18px 23px 	rgba(0,0,0,0.1);
 }
 
+.navbar{
+	border-radius: 0;
+}
+
 #noShadow{
     text-shadow: none;
 }
