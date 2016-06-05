@@ -10,4 +10,4 @@ services:
 all_tests:
   script:
    - npm install
-   - node start
+   - node app.js
