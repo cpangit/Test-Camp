@@ -6,10 +6,10 @@ cache:
 
 services:
   - mongo
-  - bower
 
 all_tests:
   script:
    - npm install
+   - npm install -g bower
    - bower install
    - node app.js
