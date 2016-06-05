@@ -11,5 +11,5 @@ all_tests:
   script:
    - npm install
    - npm install -g bower
-   - bower install
+   - bower install --allow-root
    - node app.js
