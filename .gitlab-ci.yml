@@ -6,6 +6,7 @@ cache:
 
 services:
   - mongo
+  - bower
 
 all_tests:
   script:
