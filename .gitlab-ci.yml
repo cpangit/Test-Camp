@@ -1,0 +1,13 @@
+image: node:6.2.0
+
+cache:
+  paths:
+  - node_modules/
+
+services:
+  - mongo
+
+all_tests:
+  script:
+   - npm install
+   - node start
